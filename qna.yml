@@ -1,0 +1,77 @@
+version: 3
+domain: Texas Longhorns Football Program Overview
+created_by: anibjoshi
+seed_examples:
+  - context: |
+      The Texas Longhorns football program is the intercollegiate team representing the University of Texas at Austin (variously Texas or UT) in the sport of American football. The Longhorns compete in the NCAA Division I Football Bowl Subdivision (formerly Division I-A) as a member of the Southeastern Conference (SEC). Their home games are played at Darrell K Royal–Texas Memorial Stadium in Austin, Texas. With over 900 wins and a win–loss percentage of .703, the Longhorns rank 4th in all-time wins and 11th in all-time win–loss records. The program claims 4 national championships, 33 conference championships, 100 First Team All-Americans, and 2 Heisman Trophy winners.
+    questions_and_answers:
+      - question: |
+          What conference does the Texas Longhorns football team compete in, and where do they play their home games?
+        answer: |
+          The Texas Longhorns football team competes in the Southeastern Conference (SEC) and plays its home games at Darrell K Royal–Texas Memorial Stadium in Austin, Texas.
+
+      - question: |
+          How many national championships does the Texas Longhorns football program claim, and how does it rank in all-time wins?
+        answer: |
+          The Texas Longhorns football program claims 4 national championships and ranks 4th in all-time wins in NCAA Division I football.
+
+  - context: |
+      The Texas Longhorns have a long and storied history, beginning in 1893. The team was coached by Hall of Fame coaches Dana X. Bible from 1936 to 1946 and Darrell K Royal from 1957 to 1976, with Royal leading Texas to three national championships. ESPN ranked Texas as the seventh-most prestigious college football program since 1936. Texas holds several records, including the most Southwest Conference championships and Cotton Bowl appearances. The Longhorns have been in AP or coaches' rankings 86.8% of seasons from 1936 to 2012 and have finished in the top 25, 48 times.
+    questions_and_answers:
+      - question: |
+          Which two Hall of Fame coaches are noted for leading the Texas Longhorns, and what achievement did Darrell K Royal accomplish?
+        answer: |
+          Hall of Fame coaches Dana X. Bible and Darrell K Royal led the Texas Longhorns, with Royal guiding the team to three national championships.
+
+      - question: |
+          What ranking did ESPN give Texas regarding its football program’s prestige, and what are some records held by the Longhorns?
+        answer: |
+          ESPN ranked Texas as the seventh-most prestigious college football program since 1936. The Longhorns hold records for the most Southwest Conference championships and the most Cotton Bowl appearances.
+
+  - context: |
+      Texas has several major rivalries, including with Oklahoma, Texas A&M, and Arkansas. The annual game between Texas and Oklahoma, known as the "Red River Rivalry," takes place in Dallas and has been ongoing since 1900. The rivalry with Texas A&M dates back to 1894 and was interrupted in 2011 when Texas A&M joined the SEC. It is set to resume in 2024 when Texas also joins the SEC. Texas holds the lead in its series with Oklahoma, Texas A&M, and Arkansas as of the 2023 season.
+    questions_and_answers:
+      - question: |
+          What is the name of the annual game between Texas and Oklahoma, and where is it held?
+        answer: |
+          The annual game between Texas and Oklahoma is called the "Red River Rivalry," and it takes place in Dallas, Texas.
+
+      - question: |
+          Why did the Texas and Texas A&M rivalry pause after 2011, and when is it set to resume?
+        answer: |
+          The Texas and Texas A&M rivalry paused after Texas A&M joined the SEC in 2012, but it is set to resume in 2024 when Texas also joins the SEC.
+
+  - context: |
+      The Texas Longhorns football team has a rich tradition of uniforms and colors. Originally, Texas teams wore gold and white or orange and white until 1899, when burnt orange became the team’s signature color. The uniforms underwent changes in color shade through the years, and by the 1960s, burnt orange was reintroduced and has since become the iconic color associated with Texas football.
+    questions_and_answers:
+      - question: |
+          What is the signature color for the Texas Longhorns football team, and when did it become established?
+        answer: |
+          The signature color for the Texas Longhorns football team is burnt orange, which was reintroduced in the 1960s and has since become iconic.
+
+      - question: |
+          What colors did the Texas Longhorns wear before burnt orange became the standard?
+        answer: |
+          Before adopting burnt orange, the Texas Longhorns wore gold and white, orange and white, and occasionally even maroon.
+
+  - context: |
+      Darrell K Royal–Texas Memorial Stadium, the home of the Longhorns, has a seating capacity of 100,119 and is among the largest stadiums in the NCAA. It first opened in 1924 and has undergone multiple expansions. The stadium is known for the "Godzillatron" video display and a record attendance of 103,507 set during a game against USC in 2018. There are plans to expand the stadium further by enclosing the south end zone, which could make it the largest football stadium in North America.
+    questions_and_answers:
+      - question: |
+          How many seats does the Darrell K Royal–Texas Memorial Stadium have, and when was its record attendance set?
+        answer: |
+          Darrell K Royal–Texas Memorial Stadium has a seating capacity of 100,119, with a record attendance of 103,507 set in 2018 during a game against USC.
+
+      - question: |
+          What is "Godzillatron," and what expansion plans exist for the stadium?
+        answer: |
+          "Godzillatron" is the high-definition video display at Darrell K Royal–Texas Memorial Stadium. There are plans to enclose the south end zone, which could make it the largest football stadium in North America.
+
+document_outline: |
+  The document is an in-depth guide to the Texas Longhorns football program, covering its history, championships, rivalries, head coaches, home stadium, traditions, uniforms, and future conference affiliations. It discusses significant achievements, notable games, and traditions surrounding the team, including mascots, fight songs, and its recruiting department. The document also includes individual honors, records, and NFL connections of former Longhorn players.
+
+document:
+  repo: https://github.com/<username>/<repo>.git
+  commit: <full commit SHA>
+  patterns:
+    - Texas_Longhorns_football.md
